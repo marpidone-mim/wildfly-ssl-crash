@@ -1,0 +1,5 @@
+.project
+.classpath
+hs_err_pid*.log
+server*.txt
+bin

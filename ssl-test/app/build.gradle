@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.wildfly.openssl:wildfly-openssl:2.2.5.Final'
+}
+
+application {
+    mainClass = 'ssl.test.App'
+}
